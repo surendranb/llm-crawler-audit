@@ -1,0 +1,40 @@
+{
+  "name": "llm-crawler-audit",
+  "version": "0.1.0",
+  "description": "Model Context Protocol (MCP) server for AI & LLM crawler readiness via NPX. Audits robots.txt for AI bots, validates /llms.txt, and verifies markdown mirror content negotiation.",
+  "main": "bin/index.js",
+  "bin": {
+    "llm-crawler-audit": "bin/index.js",
+    "llm-crawler-mcp": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/index.js --help"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "llm-crawler",
+    "robots-txt",
+    "llms-txt",
+    "geo",
+    "aeo",
+    "ai-search",
+    "ai-agent",
+    "anthropic",
+    "claude",
+    "cursor"
+  ],
+  "author": "Surendran B <reachsuren@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surendranb/llm-crawler-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surendranb/llm-crawler-audit/issues"
+  },
+  "homepage": "https://llm-crawler.builditwithai.xyz",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
